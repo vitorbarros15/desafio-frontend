@@ -126,7 +126,7 @@ Será um diferencial:
 
 Você poderá:
 
-- Efetuar um pull request da sua implementação diretamente no Github até a data limite de 26/06/2022, ou
-- Encaminhar para o e-mail henan.ferreira@industriall.ai com rh@industriall.ai em cópia, um arquivo .zip ou link com o código fonte até a data limite de 26/06/2022.
+- Efetuar um pull request da sua implementação diretamente no Github até a data limite de 21/09/2023, ou
+- Encaminhar para o e-mail henan.ferreira@industriall.ai com rh@industriall.ai em cópia, um arquivo .zip ou link com o código fonte até a data limite de 21/09/2023.
 
 Qualquer problema ou dificuldade, você pode entrar em contato conosco pelos e-mails, henan.ferreira@industriall.ai ou rh@industriall.ai para que possamos sanar todas as dúvidas!
