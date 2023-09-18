@@ -1,8 +1,8 @@
 import React from "react";
-import BackgroundWrapper from "./components/brackgroundWrapper";
+import MeetingList from "./layout/List/meetingList";
 
 export default function App() {
   return (
-    <BackgroundWrapper />
+    <MeetingList />
   );
 }
