@@ -1,0 +1,36 @@
+.card .container-first {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 880px;
+  height: 309px;
+  margin-top: 29px;
+  gap: 20px;
+}
+
+.container-first .title-identification {
+  font-family: Calibri;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #7B7B7B;
+
+}
+
+.container-first .container-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.container-first .inputs-text-field {
+  width: 100%;
+}
+
+
+.container-date .inputs-date {
+  width: 425px;
+}
+

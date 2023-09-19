@@ -3,18 +3,8 @@ import { Box, Paper } from "@mui/material";
 import BackgroundWrapper from "../../components/Wrapper/backgroundWrapper";
 import TextAtas from "../../components/Title/text";
 import ButtonCreate from "../../components/Button/buttonCreate";
-import LogoIndrustriall from "../../assets/imagens/Logo.png";
 
 export default function MeetingList() {
-  const boxLogo = {
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "center",
-    height: "69px",
-    bgcolor: "#003A64",
-    boxShadow: "0px 4px 15px 1px rgba(0, 0, 0, 10%)"
-  };
-
   const boxAtasButton = {
     width: "881px",
     height: "65px",
@@ -35,9 +25,6 @@ export default function MeetingList() {
 
   return (
     <BackgroundWrapper>
-      <Box sx={boxLogo}>
-        <img src={LogoIndrustriall} alt="IndrustriALL logo" />
-      </Box>
       <Box display="flex" justifyContent="center" height="96px">
         <Box display="flex" justifyContent="space-between" sx={boxAtasButton}>
           <TextAtas

@@ -6,7 +6,9 @@ function TextAtas({ title, description }) {
   const containerStyle = {
     display: "flex",
     flexDirection: "column",
-    justifyContent: "space-between"
+    justifyContent: "space-between",
+    width: "881px",
+    height: "65px"
   };
 
   const titleStyle = {
