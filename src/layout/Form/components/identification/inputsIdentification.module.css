@@ -1,4 +1,4 @@
-.card .container-first {
+.card .containerFirst {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -8,7 +8,7 @@
   gap: 20px;
 }
 
-.container-first .title-identification {
+.containerFirst .titleIdentification {
   font-family: Calibri;
   font-size: 20px;
   font-weight: 700;
@@ -16,21 +16,19 @@
   letter-spacing: 0.01em;
   text-align: left;
   color: #7B7B7B;
-
 }
 
-.container-first .container-inputs {
+.containerFirst .containerInputs {
   display: flex;
   flex-direction: column;
   gap: 35px;
 }
 
-.container-first .inputs-text-field {
+.containerFirst .inputsTextField {
   width: 100%;
 }
 
 
-.container-date .inputs-date {
+.containerDate .inputsDate {
   width: 425px;
 }
-

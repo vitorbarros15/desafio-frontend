@@ -3,30 +3,14 @@ import { Box, Paper } from "@mui/material";
 import BackgroundWrapper from "../../components/Wrapper/backgroundWrapper";
 import TextAtas from "../../components/Title/text";
 import ButtonCreate from "../../components/Button/buttonCreate";
+import styles from "./meetingList.module.css";
+import List from "./components/list";
 
 export default function MeetingList() {
-  const boxAtasButton = {
-    width: "881px",
-    height: "65px",
-    margin: "31px 0px 450px 0px",
-    left: "308px"
-  };
-
-  const backgroundList = {
-    flexWrap: "wrap",
-    "& > :not(style)": {
-      width: "946px",
-      height: "1015px",
-      padding: "29px 32px 29px 32px",
-      borderRadius: "5px",
-      margin: "32px 0 35px 0"
-    }
-  };
-
   return (
     <BackgroundWrapper>
       <Box display="flex" justifyContent="center" height="96px">
-        <Box display="flex" justifyContent="space-between" sx={boxAtasButton}>
+        <Box display="flex" justifyContent="space-between" className={styles.boxAtasButton}>
           <TextAtas
             title="Atas de Reunião"
             description="Estas são as atas das últimas reuniões"
@@ -35,8 +19,10 @@ export default function MeetingList() {
         </Box>
       </Box>
       <Box display="flex" justifyContent="center">
-        <Box sx={backgroundList}>
-          <Paper elevation={3} />
+        <Box className={styles.backgroundList}>
+          <Paper elevation={3}>
+            <List />
+          </Paper>
         </Box>
       </Box>
     </BackgroundWrapper>

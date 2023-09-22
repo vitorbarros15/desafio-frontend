@@ -1,9 +1,8 @@
 import React from "react";
-// import MeetingList from "./layout/List/meetingList";
-import FormCreate from "./layout/Form/formCreate";
+import Routesx from "./routes";
 
 export default function App() {
   return (
-    <FormCreate />
+    <Routesx />
   );
 }

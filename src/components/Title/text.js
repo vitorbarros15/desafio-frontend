@@ -1,39 +1,13 @@
 import React from "react";
 import { Box, Typography } from "@mui/material";
 import PropTypes from "prop-types";
+import styles from "./text.module.css";
 
 function TextAtas({ title, description }) {
-  const containerStyle = {
-    display: "flex",
-    flexDirection: "column",
-    justifyContent: "space-between",
-    width: "881px",
-    height: "65px"
-  };
-
-  const titleStyle = {
-    fontFamily: "Calibri, sans-serif",
-    fontSize: "24px",
-    fontWeight: 700,
-    lineHeight: "29px",
-    letterSpacing: "0.01em",
-    textAlign: "left",
-    color: "#003A64"
-  };
-
-  const descriptionStyle = {
-    fontFamily: "Calibri, sans-serif",
-    fontSize: "20px",
-    fontWeight: 400,
-    lineHeight: "24px",
-    letterSpacing: "0.01em",
-    textAlign: "left"
-  };
-
   return (
-    <Box style={containerStyle}>
-      <Typography style={titleStyle}>{title}</Typography>
-      <Typography style={descriptionStyle}>{description}</Typography>
+    <Box className={styles.containerText}>
+      <Typography className={styles.title}>{title}</Typography>
+      <Typography className={styles.description}>{description}</Typography>
     </Box>
   );
 }
